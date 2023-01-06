@@ -1,0 +1,20 @@
+body{
+    margin-left: 20%;
+    font-size: 20px;
+}
+#questions{
+    font-size: 24px;
+    font-style: italic;
+}
+#submit{
+    font-size: 30px;
+    margin-left: 30%;
+}
+#results{
+    font-size: 50px;
+    border: solid;
+
+}
+#name{
+    font-size: 50px;
+}
