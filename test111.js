@@ -18,14 +18,13 @@ let gg
 let hh
 let jj
 let name
-let pin
-window.alert("You are about write Grade 11 Mathematics Test 1")
+window.alert("You are about write a Grade 11 Mathematics Test 1")
 window.alert("Please put away everything besides your answer sheet!")
 name = window.prompt("Please enter your name:")
-pin = window.prompt("Please enter the entry code provided by your tutor:")
+let pin = window.prompt("Please enter an entry code provided by your tutor:")
 while(!(pin=="pH11")){
  window.alert("Incorrect entry code")
- pin = window.prompt("Please enter the entry code provided by your tutor:")  
+ pin = window.prompt("Please enter an entry code provided by your tutor:")  
 }
 document.getElementById("name").innerHTML = name
 document.getElementById("submit").onclick = function(){
